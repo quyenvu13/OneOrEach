@@ -8,7 +8,7 @@ OneOrEach lets a supplier and buyer agree to supply terms, record delivery decis
 | Network | StudioNet, chain 61999 |
 | Source | `contracts/InstalmentAccord.py`, contract version 1.0.0 |
 | Source fingerprint | `SOURCE_SHA256.txt` |
-| Existing app URL | https://one-or-each.vercel.app — redeploy this revision before reviewing it |
+| Live demo | https://one-or-each-m54j.vercel.app |
 | Repository | https://github.com/quyenvu13/OneOrEach |
 
 ## What changed
@@ -66,6 +66,6 @@ The same supplier, buyer and normalized text have the same contract ID, even if 
 
 The app retains a 255-byte calldata compatibility cap, so long multibyte input may be blocked before reaching the contract's character limit. A delayed confirmation is not success or failure; use **Check again**, not another signature.
 
-See `TESTING.md` for executed checks, `TEST_PLAN.md` for the two-wallet walkthrough, `RUNTIME_EVIDENCE.md` for read-only observations and outstanding signed evidence, and `LOCKED_SPEC.md` for the ABI. Old-deployment screenshots and transaction hashes are not evidence for this revision.
+See `TESTING.md` for executed checks, `TEST_PLAN.md` for the two-wallet walkthrough, `RUNTIME_EVIDENCE.md` for the two-wallet runtime evidence and transaction links, and `LOCKED_SPEC.md` for the ABI. Old-deployment screenshots and transaction hashes are not evidence for this revision.
 
 License: MIT.

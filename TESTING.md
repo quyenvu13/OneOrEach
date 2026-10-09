@@ -13,7 +13,7 @@ Checks below were executed during preparation. Mocked model and browser tests ar
 | Calldata | PASS | 17 required rows fit the retained 255-byte UI safety cap |
 | Browser integration | NOT RUN successfully | Chromium cannot launch in this execution environment; test script included, no UI PASS claimed |
 | StudioNet reads | PASS, 2026-10-07 | get_limits and both test-wallet accounts |
-| StudioNet signed flow | NOT RUN in this preparation | Owner signatures required; see TEST_PLAN |
+| StudioNet signed flow | Owner-run 2026-10-09; supplied evidence checked | 13 unique transaction references; WHOLE/SPLIT final states and shared balances match independently repeated accepted-state reads. See RUNTIME_EVIDENCE.md for provenance and limits. |
 
 ## Reproduce
 

@@ -1,0 +1,144 @@
+{
+  "deployment": "0xf6e30eF23D3e4ff9ca238b38bba5d4082edA0583",
+  "chainId": 61999,
+  "readAt": "2026-10-09T08:03:31.565Z",
+  "stateStatus": "accepted",
+  "contract": {
+    "contract_id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+    "supplier": "0x923a09d0d6e5c242e36c3c1d2071835917cc0bdf",
+    "buyer": "0x10aaa763db250e4856210dfb91b57780f60e9879",
+    "text": "A defect in any one shipment entitles you to refuse the rest.",
+    "text_hash": "c982be8578f678ac103e832d18199f927d03ed90cc1c0051df37d7bf0312e082",
+    "outcome": "ENTIRE",
+    "shape": "WHOLE",
+    "state": "ENDED",
+    "part_count": 3,
+    "price": "100",
+    "next_index": 3,
+    "owed": "0",
+    "unwound": "100",
+    "instalments": [
+      {
+        "index": 1,
+        "state": "UNWOUND",
+        "reject_note": "",
+        "contest_note": "",
+        "stake": "0"
+      },
+      {
+        "index": 2,
+        "state": "REJECTED",
+        "reject_note": "Damaged shipment",
+        "contest_note": "Goods were correct",
+        "stake": "200"
+      },
+      {
+        "index": 3,
+        "state": "RELEASED",
+        "reject_note": "",
+        "contest_note": "",
+        "stake": "0"
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "wallet": "0x923a09d0d6e5c242e36c3c1d2071835917cc0bdf",
+      "receivable": "100",
+      "payable": "0",
+      "unwound_as_supplier": "100",
+      "unwound_as_buyer": "0",
+      "disputed": "200",
+      "contracts": 2
+    },
+    {
+      "wallet": "0x10aaa763db250e4856210dfb91b57780f60e9879",
+      "receivable": "0",
+      "payable": "100",
+      "unwound_as_supplier": "0",
+      "unwound_as_buyer": "100",
+      "disputed": "200",
+      "contracts": 2
+    }
+  ],
+  "verifiedTransactions": [
+    {
+      "hash": "0xbe34bf12660e58fc8262221dba2f0e669b7f56a2c38b42661c113262b6efc6fa",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "contest rejection",
+      "checkedAt": "2026-10-09T08:01:35.264Z"
+    },
+    {
+      "hash": "0x4fb121800df14900851b24801f3ba24ab79fb4fc7054a499c6b584145b219ff4",
+      "id": "03a22fccbcaccb5c9aceaf86083ab1097a1699931b89f62b280c9409e01b49a5",
+      "action": "reject instalment",
+      "checkedAt": "2026-10-09T07:59:32.726Z"
+    },
+    {
+      "hash": "0x2580b14c8e4b583347c0310fcbdf032236015989340c96e108899c46b84138e2",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "reject instalment",
+      "checkedAt": "2026-10-09T07:56:59.678Z"
+    },
+    {
+      "hash": "0x7c77c9495c7c4bb60aa1373fde8597ea443f6becb896b55eba65c5820420fc79",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "deliver instalment",
+      "checkedAt": "2026-10-09T07:54:11.837Z"
+    },
+    {
+      "hash": "0x941a9826ef0320783ce1818d6d2ed722bfcb8d0b1d572fe92ff33154c827e634",
+      "id": "03a22fccbcaccb5c9aceaf86083ab1097a1699931b89f62b280c9409e01b49a5",
+      "action": "deliver instalment",
+      "checkedAt": "2026-10-09T07:53:05.780Z"
+    },
+    {
+      "hash": "0x468b8aa6cb6d5d3032aed26672bd1e958a34462e4f2fb843e85bb655f2b5a1a4",
+      "id": "03a22fccbcaccb5c9aceaf86083ab1097a1699931b89f62b280c9409e01b49a5",
+      "action": "accept instalment",
+      "checkedAt": "2026-10-09T07:51:04.858Z"
+    },
+    {
+      "hash": "0x1a9c729de5e8eeef6d5ab1b57814f302af84b6eca23754ae8967ae183915232b",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "accept instalment",
+      "checkedAt": "2026-10-09T07:47:25.789Z"
+    },
+    {
+      "hash": "0x46841b0f19bfcb3930bbd13f56ba0e8f103d5e498738d7cf509131589c732038",
+      "id": "03a22fccbcaccb5c9aceaf86083ab1097a1699931b89f62b280c9409e01b49a5",
+      "action": "deliver instalment",
+      "checkedAt": "2026-10-09T07:45:21.282Z"
+    },
+    {
+      "hash": "0x34ffe96a3b56091c5c01b9be5b1155dd81323d09d636a3e0163fb6587b1a9c09",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "deliver instalment",
+      "checkedAt": "2026-10-09T07:43:50.710Z"
+    },
+    {
+      "hash": "0xb87ed7f44be62658f1f5c288051648d987eb0f41d7b0d585cd808adf16dd1b74",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "accept terms",
+      "checkedAt": "2026-10-09T07:41:23.996Z"
+    },
+    {
+      "hash": "0x3ade38c7696124d23da7d350d65c20419db1d8e9fc5ac4452621ee605271c855",
+      "id": "03a22fccbcaccb5c9aceaf86083ab1097a1699931b89f62b280c9409e01b49a5",
+      "action": "accept terms",
+      "checkedAt": "2026-10-09T07:40:22.915Z"
+    },
+    {
+      "hash": "0x66737efa1259e5238b3887ccf7dd52d5959a0fb716ce99f293cc581446b3a1ed",
+      "id": "03a22fccbcaccb5c9aceaf86083ab1097a1699931b89f62b280c9409e01b49a5",
+      "action": "Propose supply terms",
+      "checkedAt": "2026-10-09T07:38:49.398Z"
+    },
+    {
+      "hash": "0xed861c2ccddfc78badfab447574fa3da0237eb5101db29a67415eb6e39ace3f6",
+      "id": "bf0110832a3b4014b7b9912d300f669da6c24fc4d1077fd63a29a31e3aa83060",
+      "action": "Propose supply terms",
+      "checkedAt": "2026-10-09T07:36:35.538Z"
+    }
+  ]
+}
