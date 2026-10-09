@@ -1,0 +1,8 @@
+{
+  "project": "0xf6e30eF23D3e4ff9ca238b38bba5d4082edA0583",
+  "contract": "InstalmentAccord",
+  "source_sha256": "b9a10e77a013c1599f0470c90594908064688b7ea5190577d505952d6decb63b",
+  "chain_id": 61999,
+  "previous_project": "0x2aa0156dB7621B4464285D9D69d6337496513e93",
+  "archive_base_commit": "67074eeac0358aa540b2cef3569b6c28770d0660"
+}
